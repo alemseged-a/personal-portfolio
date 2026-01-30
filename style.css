@@ -238,13 +238,23 @@ footer {
 }
 .home {
     min-height: 100vh;
-    background: #121212;
+
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url("photo.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
+    color: #fff;
 }
+
 
 .home-image {
     margin: 25px 0;
@@ -258,3 +268,4 @@ footer {
     border: 4px solid #00ffcc;
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.6);
 }
+
